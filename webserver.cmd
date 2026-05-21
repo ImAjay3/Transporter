@@ -55,6 +55,8 @@ start /b cmd /c "cd /d "%SHARE_PATH%" && python -m http.server %PORT%"
 :: Generate QR
 python "%SCRIPT_DIR%qr.py" %URL%
 
+
+
 echo.
 echo Press any key to stop server...
 pause >nul

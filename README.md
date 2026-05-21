@@ -128,7 +128,3 @@ This will generate an ASCII QR code in your terminal that others can scan with t
 - The QR code is displayed in ASCII format and is best viewed in a terminal with adequate width
 - Both tools are lightweight and designed for quick file sharing on local networks
 - Ensure you trust the WiFi network before sharing sensitive files
-
-## License
-
-No specific license mentioned.
