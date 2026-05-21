@@ -43,10 +43,12 @@ if "%IP%"=="" (
 
 set URL=http://%IP%:%PORT%
 
+
 echo.
 echo Sharing: %SHARE_PATH%
 echo URL: %URL%
 echo.
+
 :: Start server in background
 start /b cmd /c "cd /d "%SHARE_PATH%" && python -m http.server %PORT%"
 
