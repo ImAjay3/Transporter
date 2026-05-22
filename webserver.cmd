@@ -44,6 +44,8 @@ if "%IP%"=="" (
 set URL=http://%IP%:%PORT%
 
 
+
+
 echo.
 echo Sharing: %SHARE_PATH%
 echo URL: %URL%
